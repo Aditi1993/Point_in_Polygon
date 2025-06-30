@@ -19,7 +19,7 @@ This project implements a 2D point-in-polygon algorithm in C++, supporting compl
 
 **point_in_shape_main_test.cpp**: Main driver for tests
 
-**geometry_file**: Folder containing data to test. File "shape.txt" consist of the shape given in the assigment.
+**geometry_file**: Folder containing data to test. File "shape.txt" consist of an example shape.
 
 ---
 
@@ -30,7 +30,6 @@ This project implements a 2D point-in-polygon algorithm in C++, supporting compl
 
 ### Build using g++:
 ```bash
-cd cadenceSD_test
 g++ -std=c++17 point_in_shape.cpp point_in_shape_main.cpp -o point_in_shape_check
 ```
 ### Usage
